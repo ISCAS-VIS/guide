@@ -19,7 +19,19 @@
 * 项目详细文档（地址）
 * 项目贡献途径
 
-其中，项目运行方法中应该简明地将项目依赖的运行环境（软件版本等信息）、项目运行方法及常见的一些注意事项给出，同时对于项目代码，应给出项目的代码结构，具体的函数入口已经重要实现方法的说明，代码中应该具有必要的注释说明；项目贡献途径中应给出读者是否可以贡献代码，如何贡献的说明，一般情况下，开源项目允许其他用户在发现项目错误时通过提起 issue 的形式通知团队成员，并允许其他用户通过 pull request 向项目贡献代码。
+其中，项目运行方法中应该简明地将项目依赖的运行环境（软件版本等信息）、项目运行方法及常见的一些注意事项给出，同时对于项目代码，应给出项目的代码结构，具体的函数入口以及重要实现方法的说明，代码中应该具有必要的注释说明；详细文档中对于 API 接口的说明应具体包括输入数据格式及类型，函数计算返回结果及类型，函数中具体用到的关键技术概况；项目贡献途径中应给出读者是否可以贡献代码，如何贡献的说明，一般情况下，开源项目允许其他用户在发现项目错误时通过提起 issue 的形式通知团队成员，并允许其他用户通过 pull request 向项目贡献代码。
+
+API 格式与结构可以参考 d3.js V4 API 文档,随机节选一段如下所示:
+
+> <a name="voronoi_polygons" href="#voronoi_polygons">#</a> <i>voronoi</i>.<b>polygons</b>(<i>data</i>) [<>](https://github.com/d3/d3-voronoi/blob/master/src/voronoi.js#L19 "Source")
+
+> Returns a sparse array of polygons, one for each unique input point in the specified *data* points, corresponding to the cells in the computed Voronoi diagram. Equivalent to:
+
+> ```js
+> voronoi(data).polygons();
+> ```
+
+> See [*diagram*.polygons](#diagram_polygons) for more detail. Note: an [extent](#voronoi_extent) is required.
 
 README 中其他选填的内容包括：项目持续集成、测试覆盖率、代码质量；开源许可证说明；相关资源；项目讨论社区（例如 Gitter）等等。
 
