@@ -24,13 +24,13 @@
 API 格式与结构可以参考 d3.js V4 API 文档,随机节选一段如下所示:
 
 > <a name="voronoi_polygons" href="#voronoi_polygons">#</a> <i>voronoi</i>.<b>polygons</b>(<i>data</i>) [<>](https://github.com/d3/d3-voronoi/blob/master/src/voronoi.js#L19 "Source")
-
+> 
 > Returns a sparse array of polygons, one for each unique input point in the specified *data* points, corresponding to the cells in the computed Voronoi diagram. Equivalent to:
-
+> 
 > ```js
 > voronoi(data).polygons();
 > ```
-
+> 
 > See [*diagram*.polygons](#diagram_polygons) for more detail. Note: an [extent](#voronoi_extent) is required.
 
 README 中其他选填的内容包括：项目持续集成、测试覆盖率、代码质量；开源许可证说明；相关资源；项目讨论社区（例如 Gitter）等等。
